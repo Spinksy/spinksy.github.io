@@ -18,9 +18,8 @@ html {
 }
 
 body {
-	background: $white;
+	background-color: #262626;
   font: 18px/1.4 $raleway;
-  color: $darkGray;
 }
 
 .container {
@@ -46,6 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  color:#ddd;
   text-align: center;
   a {
     color: inherit;
@@ -67,14 +67,15 @@ h4 {
 
 p {
   margin: 15px 0;
+  color: #ddd;
 }
 
 a {
-  color: $blue;
+  color: #ddd;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ddd;
   }
 }
 
@@ -166,7 +167,7 @@ img:hover {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 3px solid $lightGray;
+  border-bottom: 3px solid $yellow;
 
   @include mobile {
     text-align: center;
@@ -186,10 +187,10 @@ img:hover {
     margin: 0 auto;
   }
 
-  img {
-    border-radius: 50%;
+  // img {
+  //   //border-radius: 50%;
     
-  }
+  // }
 }
 
 .site-info {
@@ -204,7 +205,7 @@ img:hover {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $yellow;
   cursor: pointer;
   font-family: $raleway;
   font-weight: 900;
@@ -214,7 +215,7 @@ img:hover {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: #ddd;
   font-size: 16px;
 
   @include mobile {
@@ -237,7 +238,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $yellow;
     text-align: right;
     font-weight: 600;
     letter-spacing: 1px;
@@ -285,9 +286,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
+  background-color: #444;
 }
 
 footer {
