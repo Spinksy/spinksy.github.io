@@ -109,6 +109,15 @@ strong, b {
 
 img {
   max-width: 100%;
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+/* Disable grayscale on hover */
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 // Fixes images in popup boxes from Google Translate
@@ -284,6 +293,17 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+footer > a > i {
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
+a > i:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
