@@ -3,13 +3,9 @@ layout: post
 title: Hello Sunday Morning
 ---
 
----
+I'm all about time management at the moment, with a young daughter, I need to squeeze in time to be productive wherever I can. So it's 6.10am on a Sunday morning, what better time to start a blog... 
 
-
-
-It's 6.10am on a Sunday morning. What better time to start a blog. 
-
-I'm all about time management at the moment, with a young daughter, I need to squeeze in time to be productive wherever I can. There are a few times that I find are the best opportunities to get work done. 
+There are a few times that I find are the best opportunities to get work done. 
 
 - Early mornings
 - On the commute
